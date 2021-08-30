@@ -13,4 +13,13 @@
 h1.App__title, h2.App__title, h3.App__title  {
   font-weight: bold;
   font-size: 2em;
+  text-align: center;
+}
+
+h1.App__titleSmall, h2.App__titleSmall, h3.App__titleSmall {
+  font-size: 1em;
+}
+
+.App__thinTitle {
+  font-weight: 200;
 }

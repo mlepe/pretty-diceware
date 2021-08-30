@@ -40,10 +40,11 @@ const Generator = (props) => {
   return (
     <div className="Generator">
       <button className="Generator__button" onClick={generate}>
-        Generate
+        {(results && "Regenerate") || "Generate"}
       </button>
       {results && (
         <div className="Generator__results">
+          <h2 className="App__title App__titleSmall">Your passphrase</h2>
           <ul className="Generator__resultsList">
             {results.map((e, i) => {
               return (
@@ -75,7 +76,7 @@ const Generator = (props) => {
           <form className="Generator__resultsOptions">
             <fieldset className="Generator__optionsFieldset">
               <legend className="Generator__optionsFieldsetLegend">
-                <h2 className="App__title">Settings</h2>
+                <h3 className="App__title App__titleSmall">Settings</h3>
               </legend>
               <div className="Generator__optionsWrapper">
                 <input
@@ -179,7 +180,7 @@ const GeneratorResultsCode = (props) => {
           processedWord = processedWord.replace("t", "7");
           processedWord = processedWord.replace("z", "2");
         }
-        
+
         return processedWord;
       })}
     </code>

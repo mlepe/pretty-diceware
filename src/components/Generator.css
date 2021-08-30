@@ -5,9 +5,9 @@
 .Generator {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  min-height: 50vh;
+  margin: 1em 25vmin;
+  
 }
 
 .Generator__button {
@@ -41,30 +41,47 @@
 }
 
 .Generator__resultsCode {
-  background-color: lightgray;
+  background-color: whitesmoke;
+  color: rgba(0, 0, 0, 0.75);
+  border-color: whitesmoke;
+  border-width: medium;
+  border-style: solid;
   border-radius: 5px;
   padding: 0.5em;
   margin: 1em;
+
+  font-weight: 200;
 }
 
 .Generator__resultsOptions {
   display: flex;
   justify-content: center;
   margin: 1em;
-  font-size: 0.5em;
-  margin: 5em;
+  font-size: 0.8em;
 }
 
 .Generator__optionsFieldset {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  margin: 1em;
 }
 
 .Generator__optionsFieldsetLegend {
+  /*margin: 1em;*/
+  margin-bottom: 1em;
+}
+
+.Generator__optionsWrapper {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
-  margin: 1em;
+}
+
+.Generator__optionsWrapper label {
+  margin-left: 0.1em;
+}
+
+.Generator__optionsWrapper label:not(:last-of-type) {
+  margin-right: 0.5em;
 }

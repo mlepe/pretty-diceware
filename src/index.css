@@ -4,6 +4,7 @@
  */
 @import "src/css/reset.css";
 @import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 * {
   box-sizing: border-box;
@@ -36,4 +37,27 @@ button {
 }
 input {
   font-size: inherit;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+}
+
+a:visited {
+  color: lightslategray;
+}
+
+a:hover {
+  color: lightblue;
+}
+
+a:active {
+  color: skyblue;
+}
+
+a:focus {
+  color: skyblue;
 }

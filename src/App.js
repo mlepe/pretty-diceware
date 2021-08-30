@@ -9,6 +9,7 @@ import { useEffect, useState } from "react";
 import data from "src/data/eff_large_converted.json";
 import Generator from "src/components/Generator";
 import Header from "src/components/Header";
+import About from "./components/About";
 
 function App() {
   const [words, setWords] = useState([]);
@@ -22,9 +23,10 @@ function App() {
 
   return (
     <div className="App">
-      <Header></Header>
+      <Header />
       <main className="Content">
         <Generator words={words} wordCount={5}></Generator>
+        <About />
       </main>
     </div>
   );

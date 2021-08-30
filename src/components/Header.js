@@ -8,8 +8,7 @@ const Header = (props) => {
   return (
     <header className="Header">
       <h1 className="Header__title App__title">
-        <span className="Header__titlePartOne">pretty</span>
-        <span className="Header__titlePartTwo">diceware</span>
+        <span className="App__thinTitle">pretty</span>diceware
       </h1>
     </header>
   );

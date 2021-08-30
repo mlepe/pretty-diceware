@@ -1,0 +1,30 @@
+/*
+ *   Copyright (c) 2021 Matthieu Leperlier
+ *   All rights reserved.
+ */
+ .About {
+   display: flex;
+   flex-direction: column;
+   margin: 1em  50vmin;
+   padding: 1em;
+   border-radius: 5px;
+   background-color: whitesmoke;
+ }
+
+ .About__title {
+   text-transform: lowercase;
+   margin-bottom: 1em;
+ }
+
+ .About p {
+   text-align: justify;
+   font-size: 0.7em;
+   text-indent: 1em;
+   margin-bottom: 0.35em;
+   padding-left: 5em;
+   padding-right: 5em;
+ }
+
+ .About__source {
+   margin-top: 1em;
+ }
