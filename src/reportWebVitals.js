@@ -1,3 +1,7 @@
+/*
+ *   Copyright (c) 2021 Matthieu Leperlier
+ *   All rights reserved.
+ */
 const reportWebVitals = onPerfEntry => {
   if (onPerfEntry && onPerfEntry instanceof Function) {
     import('web-vitals').then(({ getCLS, getFID, getFCP, getLCP, getTTFB }) => {

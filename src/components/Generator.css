@@ -1,0 +1,70 @@
+/*
+ *   Copyright (c) 2021 Matthieu Leperlier
+ *   All rights reserved.
+ */
+.Generator {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+}
+
+.Generator__button {
+  width: fit-content;
+
+  text-transform: lowercase;
+  background-color: transparent;
+  border-width: thick;
+  border-color: black;
+  border-radius: 1000px;
+  padding: 0.25em 0.5em;
+  margin: 1em;
+}
+
+.Generator__resultsList {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0.5em;
+  margin-bottom: 2em;
+}
+
+.Generator__resultsItem {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0.5em;
+}
+
+.Generator__resultsItemCode {
+  font-size: 0.5em;
+}
+
+.Generator__resultsCode {
+  background-color: lightgray;
+  border-radius: 5px;
+  padding: 0.5em;
+  margin: 1em;
+}
+
+.Generator__resultsOptions {
+  display: flex;
+  justify-content: center;
+  margin: 1em;
+  font-size: 0.5em;
+  margin: 5em;
+}
+
+.Generator__optionsFieldset {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Generator__optionsFieldsetLegend {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1em;
+}

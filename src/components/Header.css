@@ -1,0 +1,12 @@
+/*
+ *   Copyright (c) 2021 Matthieu Leperlier
+ *   All rights reserved.
+ */
+.Header {
+  margin: 10vmin;
+  margin-bottom: 1em;
+}
+
+.Header__titlePartOne {
+  font-weight: 200;
+}
