@@ -29,8 +29,8 @@ function App() {
         <Generator words={words} wordCount={5}></Generator>
         <About />
       </main>
+      <Footer/>
     </div>
-  <Footer></Footer>
   );
 }
 
