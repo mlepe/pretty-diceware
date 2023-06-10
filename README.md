@@ -1,4 +1,4 @@
-# Memento React
+# Pretty Diceware
 > A tool to help you generate and the best passwords: passphrases that you'll quickly remember.
 
 Step up your passwords game!
